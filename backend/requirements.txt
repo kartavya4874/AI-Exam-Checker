@@ -1,0 +1,45 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic>=2.12.5
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy>=2.1.0
+# psycopg2-binary==2.9.9  # Only needed for PostgreSQL (production)
+# For development, SQLite is used (no additional dependencies needed)
+alembic>=1.13.1
+
+# Task Queue
+celery==5.3.6
+redis==5.0.1
+flower==2.0.1  # Celery monitoring
+
+# Image Processing & OCR
+opencv-python==4.10.0.84
+Pillow>=11.1.0
+pdf2image==1.17.0
+pytesseract==0.3.10
+
+# Google Cloud Vision API
+google-cloud-vision==3.7.0
+
+# Mathpix API (uses requests library, no separate package needed)
+# Mathpix integration is built into ocr_engine.py using requests
+
+# Gemini API
+google-generativeai==0.3.2
+
+# Utilities
+python-multipart==0.0.6
+python-dotenv==1.0.0
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Export
+openpyxl==3.1.2
+reportlab==4.0.9
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
