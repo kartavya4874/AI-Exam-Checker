@@ -5,7 +5,7 @@ pydantic>=2.12.5
 pydantic-settings==2.1.0
 
 # Database
-sqlalchemy>=2.1.0
+sqlalchemy>=2.1.0b1
 # psycopg2-binary==2.9.9  # Only needed for PostgreSQL (production)
 # For development, SQLite is used (no additional dependencies needed)
 alembic>=1.13.1
